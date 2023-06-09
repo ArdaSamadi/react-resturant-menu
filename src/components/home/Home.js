@@ -42,7 +42,7 @@ function Home() {
         />
       </button>
       <div className="developer-information">
-        <h1 style={{ textAlign: "right" }}>منو رستوران</h1>
+        <h1>منو رستوران</h1>
         <span className="location">&nbsp; Shorja , Kirkuk ,Iraq</span>
         <span className="phone-number">&nbsp; +9647507199736</span>
       </div>

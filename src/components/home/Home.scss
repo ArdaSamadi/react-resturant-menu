@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Tajawal";
+  // src: url('../../assets/fonts/');
+  src: url('../../assets/fonts/Lalezar-Regular.ttf') format('truetype');
+}
 .home-page {
   width: 100%;
   position: relative;
@@ -9,6 +14,7 @@
   background-repeat: no-repeat;
   box-sizing: border-box;
   padding-top: 100px;
+  
 
   .developer-information {
     display: flex;
@@ -18,16 +24,16 @@
 
     h1 {
       color: black;
-      text-align: left;
+      text-align: right;
       margin-bottom: 1rem;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Tajawal', sans-serif;
       font-size: 2rem;
       font-weight: 400;
     }
 
     .location {
       font-size: 18px;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Fredoka', sans-serif;
 
       &::before {
         content: url('../../assets/images/geo-alt.svg');
@@ -36,7 +42,7 @@
 
     .phone-number {
       font-size: 18px;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Fredoka', sans-serif;
 
       &::before {
         content: url('../../assets/images/telephone.svg');

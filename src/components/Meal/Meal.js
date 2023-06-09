@@ -33,7 +33,7 @@ function Meal(props) {
       </div>
       <div className="price-and-order-container">
         <span className="span1">{price}</span>
-        <div className={order > 0 ? "counter" : "hide"}>
+        {/* <div className={order > 0 ? "counter" : "hide"}>
           <img
             src={minus}
             alt="minus"
@@ -56,7 +56,7 @@ function Meal(props) {
           alt="plus-sign"
           onClick={() => dispatch(increament(payload))}
           className={order > 0 ? "hide" : ""}
-        />
+        /> */}
       </div>
     </div>
   );

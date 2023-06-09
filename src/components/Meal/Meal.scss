@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Tajawal";
+  // src: url('../../assets/fonts/');
+  src: url('../../assets/fonts/Lalezar-Regular.ttf') format('truetype');
+}
 .meal-container {
   display: flex;
   flex-direction: column;
@@ -6,6 +11,9 @@
 -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
   padding: 1rem;
+  text-align: right;
+  direction: rtl;
+  font-family: Tajawal;
 
   .image-container {
     width: 100%;
@@ -24,9 +32,9 @@
   }
 
   .name-container {
-    display: flex;
+    // display: flex;
     justify-content: flex-start;
-
+    text-align: right;
     span {
       color: black;
       font-size: 1.5rem;
@@ -35,10 +43,11 @@
   }
 
   .price-and-order-container {
-    display: flex;
+    // display: flex;
     justify-content: space-between;
     align-items: center;
-
+    // left: 0;
+    text-align: end;
     .counter {
       display: flex;
       justify-content: center;
@@ -66,9 +75,10 @@
       font-size: 24px;
       font-weight: 500;
       color: #f7906c;
-
+      // direction: ltr;
+      // text-align: end;
       &::after {
-        content: "$";
+        content: " هزار تومان";
       }
     }
 
