@@ -1,24 +1,24 @@
 /* eslint-disable */
-import './Meal.scss';
-import React from 'react';
-import PropTypes from 'prop-types';
-import { useDispatch } from 'react-redux';
-import plus from '../../assets/images/plus.svg';
-import plus2 from '../../assets/images/plus2.svg';
-import minus from '../../assets/images/dash.svg';
-import { increament, decreament } from '../../redux/dataReduser';
+import "./Meal.scss";
+import React from "react";
+import PropTypes from "prop-types";
+import { useDispatch } from "react-redux";
+import plus from "../../assets/images/plus.svg";
+import plus2 from "../../assets/images/plus2.svg";
+import minus from "../../assets/images/dash.svg";
+import { increament, decreament } from "../../redux/dataReduser";
 
 function Meal(props) {
   const { CatagoryId, meal } = props;
-  const {
-    id, src, name, discription, price, order,
-  } = meal;
+  const { id, src, name, discription, price, order } = meal;
   const dispatch = useDispatch();
   const payload = {
     CatagoryId,
     typeId: id,
   };
-  const decrease = () => { dispatch(decreament(payload)); };
+  const decrease = () => {
+    dispatch(decreament(payload));
+  };
 
   return (
     <div className="meal-container">
@@ -33,8 +33,7 @@ function Meal(props) {
       </div>
       <div className="price-and-order-container">
         <span className="span1">{price}</span>
-        <div className={order > 0 ? 'counter' : 'hide'}>
-
+        <div className={order > 0 ? "counter" : "hide"}>
           <img
             src={minus}
             alt="minus"
@@ -56,7 +55,7 @@ function Meal(props) {
           src={plus}
           alt="plus-sign"
           onClick={() => dispatch(increament(payload))}
-          className={order > 0 ? 'hide' : ''}
+          className={order > 0 ? "hide" : ""}
         />
       </div>
     </div>
