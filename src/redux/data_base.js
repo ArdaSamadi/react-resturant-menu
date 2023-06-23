@@ -1,82 +1,100 @@
 /* eslint-disable quotes */
 // import main catagories image
-import c0 from "../assets/images/hotMeals.jpg";
-import c1 from "../assets/images/saladjpg.jpg";
-import c2 from "../assets/images/desserts.jpg";
-import c3 from "../assets/images/breackfasts.jpg";
+// import c0 from "../assets/images/hotMeals.jpg";
+// import c1 from "../assets/images/saladjpg.jpg";
+// import c2 from "../assets/images/desserts.jpg";
+// import c3 from "../assets/images/breackfasts.jpg";
 // import meals from first catagory
-import c1t1 from "../assets/images/dumplings.jpg";
-import c1t2 from "../assets/images/soup.jpg";
-import c1t3 from "../assets/images/burger.jpg";
-import c1t4 from "../assets/images/borscht.jpg";
-import c1t5 from "../assets/images/fishPancake.jpg";
-import c1t6 from "../assets/images/hotRolls.jpg";
+// import c1t1 from "../assets/images/dumplings.jpg";
+// import c1t2 from "../assets/images/soup.jpg";
+// import c1t3 from "../assets/images/burger.jpg";
+// import c1t4 from "../assets/images/borscht.jpg";
+// import c1t5 from "../assets/images/fishPancake.jpg";
+// import c1t6 from "../assets/images/hotRolls.jpg";
 // import meals from second catagory
-import c2t1 from "../assets/images/avogado.jpg";
-import c2t2 from "../assets/images/camembert.jpg";
-import c2t3 from "../assets/images/greekSalad.jpg";
-import c2t4 from "../assets/images/Guacamole.jpg";
+// import c2t1 from "../assets/images/avogado.jpg";
+// import c2t2 from "../assets/images/camembert.jpg";
+// import c2t3 from "../assets/images/greekSalad.jpg";
+// import c2t4 from "../assets/images/Guacamole.jpg";
 // import meals from third catagory
-import c3t1 from "../assets/images/RaspberryMousse.jpg";
-import c3t2 from "../assets/images/VanillaIceCream.jpg";
-import c3t3 from "../assets/images/BrownieWithRaspberries.jpg";
-import c3t4 from "../assets/images/Cheesecake.jpg";
-import c3t5 from "../assets/images/BerryIceCream.jpg";
+// import c3t1 from "../assets/images/RaspberryMousse.jpg";
+// import c3t2 from "../assets/images/VanillaIceCream.jpg";
+// import c3t3 from "../assets/images/BrownieWithRaspberries.jpg";
+// import c3t4 from "../assets/images/Cheesecake.jpg";
+// import c3t5 from "../assets/images/BerryIceCream.jpg";
 // import meals from fourth catagory
-import c4t1 from "../assets/images/FullEnglishBreakfast.jpg";
-import c4t2 from "../assets/images/Oatmeal.jpg";
-import c4t3 from "../assets/images/Cheesepancakeswithstrawberryjam.jpg";
-import c4t4 from "../assets/images/AvocadoToast.jpg";
-import c4t5 from "../assets/images/Catfishonpumpkinpuree.jpg";
+// import c4t1 from "../assets/images/FullEnglishBreakfast.jpg";
+// import c4t2 from "../assets/images/Oatmeal.jpg";
+// import c4t3 from "../assets/images/Cheesepancakeswithstrawberryjam.jpg";
+// import c4t4 from "../assets/images/AvocadoToast.jpg";
+// import c4t5 from "../assets/images/Catfishonpumpkinpuree.jpg";
 
 const ar1 = [
   {
     id: 0,
-    src: c1t3,
+    src: null,
     name: "چیزبرگر",
     // eslint-disable-next-line no-useless-concat
-    discription: "۱۵۰ گرم گوشت گوساله",
-    price: 192,
+    discription: "۱۵۰ گرم گوشت گوساله،پنیر پرچرب ، کاهو ،خیارشور",
+    price: 199,
     order: 0,
   },
   {
     id: 1,
-    src: c1t2,
+    src: null,
     name: "ماشروم برگر",
-    discription: "قارج،گوشت،نون",
-    price: 180,
+    discription:
+      "۱۵۰ گرم گوشت گوساله ، قارج مزه دار شده ، کاهو ، خیارشور ، پیاز کاراملی",
+    price: 215,
     order: 0,
   },
   {
     id: 2,
-    src: c1t1,
-    name: "سگ",
-    discription: "Beef, lettuce, pickle, tomato, soft bun",
-    price: 5.9,
+    src: null,
+    name: "بیکن برگر",
+    discription: "۱۵۰ گرم گوشت گوساله ، بیکن ۹۰% ، کاهو ، خیارشور",
+    price: 219,
     order: 0,
   },
   {
     id: 3,
-    src: c1t4,
-    name: "Borscht",
-    discription: "Beetroot borsch with bacon and donuts",
-    price: 4.6,
+    src: null,
+    name: "اسپشیال برگر",
+    discription: "۱۸۰ گرم گوشت گوساله ، پنیر بلوچیز ، کاهو ، خیارشور",
+    price: 169,
     order: 0,
   },
   {
     id: 4,
-    src: c1t5,
-    name: "Fish pancakes",
-    discription: "Beef, lettuce, pickle, tomato, soft bun",
-    price: 6.5,
+    src: null,
+    name: "چیکن برگر",
+    discription: "۱۵۰ گرم سینه مرغ گریل شده ، گوجه ، کاهو ، خیارشور",
+    price: 169,
     order: 0,
   },
   {
     id: 5,
-    src: c1t6,
-    name: "Hot rolls",
-    discription: "Temporarily unavailable",
-    price: 4.9,
+    src: null,
+    name: "اونیون برگر",
+    discription: "۱۵۰ گرم گوشت گوساله پیاز کاراملی یا کرانچی ، کاهو ، خیارشور",
+    price: 209,
+    order: 0,
+  },
+  {
+    id: 6,
+    src: null,
+    name: "اگ برگر",
+    discription: "۱۵۰ گرم گوشت گوساله نیمرو ، کاهو ، خیارشور",
+    price: 205,
+    order: 0,
+  },
+  {
+    id: 7,
+    src: null,
+    name: "ژولین برگر",
+    discription:
+      "۱۵۰ گرم گوشت گوساله سیب زمینی سرخ کرده ژولین ، کاهو ، خیارشور، پیاز کاراملی",
+    price: 215,
     order: 0,
   },
 ];
@@ -84,120 +102,127 @@ const ar1 = [
 const ar2 = [
   {
     id: 0,
-    src: c2t1,
-    name: "Avocado salad with feta",
-    discription: "Ripe avocado, feta cheese, olives and spinach salad",
-    price: 4.9,
+    src: null,
+    name: "چیکن آلفردو",
+    discription: "۱۵۰ گرم سینه مرغ گریل شده، سس آلفردو ، کاهو ، خیارشور",
+    price: 189,
+    halfPrice: 109,
     order: 0,
   },
   {
     id: 1,
-    src: c2t2,
-    name: "Camembert salad",
-    discription: "Baked Camembert cheese with fresh vegetables",
-    price: 4.5,
+    src: null,
+    name: "چیکن پستو",
+    discription: "۱۵۰ گرم سینه مرغ گریل شده سس پستو، کاهو، خیار شور",
+    price: 189,
+    halfPrice: 109,
     order: 0,
   },
   {
     id: 2,
-    src: c2t3,
-    name: "Greek saladger",
-    discription: "Tomato, cucumber, olives, feta, olive oil",
-    price: 5.5,
+    src: null,
+    name: "چیکن بوفالو",
+    discription:
+      "۱۵۰ گرم سینه مرغ گریل شده، سپس دست ساز بوفالو ، کاهو ، خیارشور",
+    price: 195,
+    halfPrice: 115,
     order: 0,
   },
   {
     id: 3,
-    src: c2t4,
-    name: "Guacamole",
-    discription: "Mexican guacamole with nachos",
-    price: 3.9,
+    src: null,
+    name: "استیک آلفردو",
+    discription: "۱۵۰ گرم راسته گوساله ، سس آلفردو ، کاهو ، خیارشور",
+    price: 245,
+    halfPrice: 155,
+    order: 0,
+  },
+  {
+    id: 4,
+    src: null,
+    name: "استیک و پنیر",
+    discription: "۱۵۰ گرم راسته گوساله، پنیر پیتزا ، کاهو، خیارشور",
+    price: 250,
+    halfPrice: 160,
+    order: 0,
+  },
+  {
+    id: 5,
+    src: null,
+    name: "رست بیف",
+    discription: "۱۵۰ گرم راسته گوساله ریش شده ، کاهو، خیارشور",
+    price: 258,
+    halfPrice: 168,
     order: 0,
   },
 ];
 const ar3 = [
   {
     id: 0,
-    src: c3t1,
-    name: "Raspberry mousse",
-    discription: "Raspberry mousse with cream and raspberry syrup",
-    price: 3.25,
+    src: null,
+    name: "کلاسیک هات داگ",
+    discription: "هات داگ ۹۰ درصد ، سس مخصوص پیاز کاراملی ، خیارشور",
+    price: 158,
     order: 0,
   },
   {
     id: 1,
-    src: c3t2,
-    name: "SoVanilla ice creamup",
-    discription: "Vanilla ice cream with chocolate filling",
-    price: 2.5,
+    src: null,
+    name: "ماشروم داگ",
+    discription: "هات داگ ۹۰ درصد، سس مخصوص ، سس الفردو",
+    price: 168,
     order: 0,
   },
   {
     id: 2,
-    src: c3t3,
-    name: "Brownie with raspberries",
-    discription: "Chocolate brownie with fresh raspberries",
-    price: 4.75,
+    src: null,
+    name: "اسپشیال داگ",
+    discription:
+      "هات داگ ۹۰ درصد گوشت ریش ریش شده یا پیرونی ، پنیر گودا ، خیارشور",
+    price: 182,
     order: 0,
   },
   {
     id: 3,
-    src: c3t4,
-    name: "Cheesecake",
-    discription: "Temporarily unavailable",
-    price: 4.99,
-    order: 0,
-  },
-  {
-    id: 4,
-    src: c3t5,
-    name: "Berry ice cream",
-    discription: "Natural ice cream made from berries",
-    price: 2.25,
+    src: null,
+    name: "هات هات",
+    discription:
+      "هات داگ ۹۰ درصد گوشت چرخ شده تند، هالوپینو ، خیارشور ، سس تند",
+    price: 178,
     order: 0,
   },
 ];
 const ar4 = [
   {
     id: 0,
-    src: c4t1,
-    name: "Full English breakfast",
-    discription: "Fried eggs, bacon, toast, cherry tomatoes",
-    price: 6.99,
+    src: null,
+    name: "سیب زمینی سرخ کرده",
+    discription: "سیب زمینی با ادویه مخصوص",
+    price: 99,
     order: 0,
   },
   {
     id: 1,
-    src: c4t2,
-    name: "Oatmeal",
-    discription: "Oatmeal with seasonal berries and berry syrup",
-    price: 3.25,
+    src: null,
+    name: "وایت فرایز",
+    discription: "سیب زمینی با سس الفردو",
+    price: 109,
     order: 0,
   },
   {
     id: 2,
-    src: c4t3,
-    name: "Cheese pancakes with strawberry jam",
-    discription:
-      "Fresh cottage cheese pancakes with strawberry jam and sour cream",
-    price: 4.6,
+    src: null,
+    name: "چیزی فرایز",
+    discription: "سیب زمینی با سس پنیر",
+    price: 112,
     order: 0,
   },
   {
     id: 3,
-    src: c4t4,
-    name: "Avocado toast",
-    discription: "Rye toast with avocado and boiled egg",
-    price: 2.15,
-    order: 0,
-  },
-  {
-    id: 4,
-    src: c4t5,
-    name: "Catfish on pumpkin puree",
-    discription:
-      "Catfish fillet baked with young potatoes. Served with salad and pumpkin puree",
-    price: 6.5,
+    src: null,
+    name: "بیکن فرایز",
+    discription: "سیب زمینی با سس پنیر و بیکن ۹۰ درصد",
+    price: 118,
     order: 0,
   },
 ];
@@ -206,25 +231,25 @@ const catagories = [
   {
     id: 0,
     name: "برگر",
-    src: c0,
+    src: null,
     list: ar1,
   },
   {
     id: 1,
-    name: "SALADS",
-    src: c1,
+    name: "ساندویچ",
+    src: null,
     list: ar2,
   },
   {
     id: 2,
-    name: "DESSERTS",
-    src: c2,
+    name: "هات داگ",
+    src: null,
     list: ar3,
   },
   {
     id: 3,
-    name: "BEAKFASTS",
-    src: c3,
+    name: "پیش غذا",
+    src: null,
     list: ar4,
   },
 ];

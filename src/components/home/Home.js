@@ -41,11 +41,11 @@ function Home() {
           alt="go-back"
         />
       </button>
-      <div className="developer-information">
-        <h1>منو رستوران</h1>
-        <span className="location">&nbsp; Shorja , Kirkuk ,Iraq</span>
-        <span className="phone-number">&nbsp; +9647507199736</span>
-      </div>
+      {/* <div className="developer-information"> */}
+      {/* <h1>ساب برگر</h1> */}
+      {/* <span className="location">&nbsp; Shorja , Kirkuk ,Iraq</span> */}
+      {/* <span className="phone-number">&nbsp; @subburger</span> */}
+      {/* </div> */}
       <Routes>
         <Route exact path="/" element={<Meals />} />
         {/* <Route exact path="/meals" element={<Meals />} /> */}
