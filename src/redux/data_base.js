@@ -5,96 +5,110 @@
 // import c2 from "../assets/images/desserts.jpg";
 // import c3 from "../assets/images/breackfasts.jpg";
 // import meals from first catagory
-// import c1t1 from "../assets/images/dumplings.jpg";
-// import c1t2 from "../assets/images/soup.jpg";
-// import c1t3 from "../assets/images/burger.jpg";
-// import c1t4 from "../assets/images/borscht.jpg";
-// import c1t5 from "../assets/images/fishPancake.jpg";
-// import c1t6 from "../assets/images/hotRolls.jpg";
+import c1t1 from "../assets/images/8.jpg";
+import c1t2 from "../assets/images/1.jpg";
+import c1t7 from "../assets/images/2.jpg";
+import c1t3 from "../assets/images/9.jpg";
+import c1t4 from "../assets/images/10.jpg";
+import c1t5 from "../assets/images/11.jpg";
+import c1t6 from "../assets/images/sub (3).jpg";
+import c1t8 from "../assets/images/sub (8).jpg";
 // import meals from second catagory
-// import c2t1 from "../assets/images/avogado.jpg";
-// import c2t2 from "../assets/images/camembert.jpg";
-// import c2t3 from "../assets/images/greekSalad.jpg";
+import c2t1 from "../assets/images/sub (9).jpg";
+import c2t2 from "../assets/images/13.jpg";
+import c2t3 from "../assets/images/15.jpg";
 // import c2t4 from "../assets/images/Guacamole.jpg";
 // import meals from third catagory
-// import c3t1 from "../assets/images/RaspberryMousse.jpg";
-// import c3t2 from "../assets/images/VanillaIceCream.jpg";
+import c3t1 from "../assets/images/4.jpg";
+import c3t2 from "../assets/images/6.jpg";
 // import c3t3 from "../assets/images/BrownieWithRaspberries.jpg";
 // import c3t4 from "../assets/images/Cheesecake.jpg";
 // import c3t5 from "../assets/images/BerryIceCream.jpg";
 // import meals from fourth catagory
-// import c4t1 from "../assets/images/FullEnglishBreakfast.jpg";
-// import c4t2 from "../assets/images/Oatmeal.jpg";
-// import c4t3 from "../assets/images/Cheesepancakeswithstrawberryjam.jpg";
+import c4t1 from "../assets/images/12.jpg";
+import c4t2 from "../assets/images/14.jpg";
+import c4t3 from "../assets/images/5.jpg";
 // import c4t4 from "../assets/images/AvocadoToast.jpg";
 // import c4t5 from "../assets/images/Catfishonpumpkinpuree.jpg";
 
 const ar1 = [
   {
+    id: 8,
+    src: c1t1,
+    name: "کلاسیک برگر",
+    // eslint-disable-next-line no-useless-concat
+    discription:
+      "۱۵۰ گرم گوشت گوساله،پنیر گودا، گوجه ، پیاز ، کاهو ،خیارشور، سس مخصوص",
+    price: 207,
+    order: 0,
+  },
+  {
     id: 0,
-    src: null,
+    src: c1t4,
     name: "چیزبرگر",
     // eslint-disable-next-line no-useless-concat
-    discription: "۱۵۰ گرم گوشت گوساله،پنیر پرچرب ، کاهو ،خیارشور",
-    price: 199,
+    discription: "۱۵۰ گرم گوشت گوساله،دو ورق پنیر گودا ، کاهو ،خیارشور",
+    price: 205,
     order: 0,
   },
   {
     id: 1,
-    src: null,
+    src: c1t3,
     name: "ماشروم برگر",
     discription:
-      "۱۵۰ گرم گوشت گوساله ، قارج مزه دار شده ، کاهو ، خیارشور ، پیاز کاراملی",
-    price: 215,
+      "۱۵۰ گرم گوشت گوساله ، قارج مزه دار شده ، کاهو ، خیارشور ، پیاز کاراملی، پنیر گودا",
+    price: 230,
     order: 0,
   },
   {
     id: 2,
-    src: null,
+    src: c1t2,
     name: "بیکن برگر",
-    discription: "۱۵۰ گرم گوشت گوساله ، بیکن ۹۰% ، کاهو ، خیارشور",
-    price: 219,
+    discription: "۱۵۰ گرم گوشت گوساله ، بیکن ۹۰% ، کاهو ، خیارشور، پنیر گودا",
+    price: 232,
     order: 0,
   },
   {
     id: 3,
-    src: null,
+    src: c1t6,
     name: "اسپشیال برگر",
-    discription: "۱۸۰ گرم گوشت گوساله ، پنیر بلوچیز ، کاهو ، خیارشور",
-    price: 169,
+    discription:
+      "۱۸۰ گرم گوشت گوساله مزه دار شده ، پنیر بلوچیز ، کاهو ، خیارشور",
+    price: 272,
     order: 0,
   },
   {
     id: 4,
-    src: null,
+    src: c1t5,
     name: "چیکن برگر",
-    discription: "۱۵۰ گرم سینه مرغ گریل شده ، گوجه ، کاهو ، خیارشور",
-    price: 169,
+    discription: "۱۵۰ گرم سینه مرغ گریل شده ، گوجه ، کاهو ، خیارشور، پنیر گودا",
+    price: 199,
     order: 0,
   },
   {
     id: 5,
     src: null,
     name: "اونیون برگر",
-    discription: "۱۵۰ گرم گوشت گوساله پیاز کاراملی یا کرانچی ، کاهو ، خیارشور",
-    price: 209,
+    discription:
+      "۱۵۰ گرم گوشت گوساله، پیاز کاراملی یا کرانچی ، کاهو ، خیارشور، پنیر گودا",
+    price: 219,
     order: 0,
   },
   {
     id: 6,
-    src: null,
+    src: c1t8,
     name: "اگ برگر",
-    discription: "۱۵۰ گرم گوشت گوساله نیمرو ، کاهو ، خیارشور",
-    price: 205,
+    discription: "۱۵۰ گرم گوشت گوساله، نیمرو ، کاهو ، خیارشور، پنیر گودا",
+    price: 214,
     order: 0,
   },
   {
     id: 7,
-    src: null,
-    name: "ژولین برگر",
+    src: c1t7,
+    name: "پولد بیف برگر",
     discription:
-      "۱۵۰ گرم گوشت گوساله سیب زمینی سرخ کرده ژولین ، کاهو ، خیارشور، پیاز کاراملی",
-    price: 215,
+      "۱۰۰ گرم گوشت ریش ریش شده، ۷۵ گرم برگر گوساله ، سس مخصوص، سس باربیکیو، خیارشور، پیاز سوخاری، پنیر گودا",
+    price: 298,
     order: 0,
   },
 ];
@@ -102,74 +116,74 @@ const ar1 = [
 const ar2 = [
   {
     id: 0,
-    src: null,
+    src: c2t1,
     name: "چیکن آلفردو",
-    discription: "۱۵۰ گرم سینه مرغ گریل شده، سس آلفردو ، کاهو ، خیارشور",
-    price: 189,
-    halfPrice: 109,
+    discription: "۲۰۰ گرم سینه مرغ گریل شده، سس آلفردو ، کاهو ، خیارشور",
+    price: 197,
+    halfPrice: 117,
     order: 0,
   },
   {
     id: 1,
-    src: null,
+    src: c2t2,
     name: "چیکن پستو",
-    discription: "۱۵۰ گرم سینه مرغ گریل شده سس پستو، کاهو، خیار شور",
-    price: 189,
-    halfPrice: 109,
+    discription: "۲۰۰ گرم سینه مرغ گریل شده سس پستو، کاهو، خیار شور، گوجه خشک",
+    price: 197,
+    halfPrice: 117,
     order: 0,
   },
   {
     id: 2,
-    src: null,
+    src: c2t3,
     name: "چیکن بوفالو",
     discription:
-      "۱۵۰ گرم سینه مرغ گریل شده، سپس دست ساز بوفالو ، کاهو ، خیارشور",
-    price: 195,
-    halfPrice: 115,
+      "۲۰۰ گرم سینه مرغ گریل شده، سس دست ساز بوفالو ، کاهو ، خیارشور",
+    price: 203,
+    halfPrice: 123,
     order: 0,
   },
   {
     id: 3,
     src: null,
     name: "استیک آلفردو",
-    discription: "۱۵۰ گرم راسته گوساله ، سس آلفردو ، کاهو ، خیارشور",
-    price: 245,
-    halfPrice: 155,
+    discription: "۱۸۰ گرم راسته گوساله ، سس آلفردو ، کاهو ، خیارشور",
+    price: 259,
+    halfPrice: 158,
     order: 0,
   },
   {
     id: 4,
     src: null,
     name: "استیک و پنیر",
-    discription: "۱۵۰ گرم راسته گوساله، پنیر پیتزا ، کاهو، خیارشور",
-    price: 250,
-    halfPrice: 160,
+    discription: "۱۸۰ گرم راسته گوساله، پنیر پیتزا ، کاهو، خیارشور",
+    price: 256,
+    halfPrice: 155,
     order: 0,
   },
   {
     id: 5,
     src: null,
     name: "رست بیف",
-    discription: "۱۵۰ گرم راسته گوساله ریش شده ، کاهو، خیارشور",
-    price: 258,
-    halfPrice: 168,
+    discription: "۱۸۰ گرم راسته گوساله ریش شده ، کاهو، خیارشور، سس آلفردو",
+    price: 283,
+    halfPrice: 183,
     order: 0,
   },
 ];
 const ar3 = [
   {
     id: 0,
-    src: null,
+    src: c3t1,
     name: "کلاسیک هات داگ",
-    discription: "هات داگ ۹۰ درصد ، سس مخصوص پیاز کاراملی ، خیارشور",
+    discription: "هات داگ ۹۰ درصد ، سس مخصوص، پیاز کاراملی ، خیارشور",
     price: 158,
     order: 0,
   },
   {
     id: 1,
-    src: null,
+    src: c3t2,
     name: "ماشروم داگ",
-    discription: "هات داگ ۹۰ درصد، سس مخصوص ، سس الفردو",
+    discription: "هات داگ ۹۰ درصد، سس مخصوص ، سس آلفردو، خیارشور",
     price: 168,
     order: 0,
   },
@@ -178,7 +192,7 @@ const ar3 = [
     src: null,
     name: "اسپشیال داگ",
     discription:
-      "هات داگ ۹۰ درصد گوشت ریش ریش شده یا پیرونی ، پنیر گودا ، خیارشور",
+      "هات داگ ۹۰ درصد، گوشت ریش ریش شده یا پیرونی ، پنیر موتزارلا ، خیارشور",
     price: 182,
     order: 0,
   },
@@ -187,7 +201,7 @@ const ar3 = [
     src: null,
     name: "هات هات",
     discription:
-      "هات داگ ۹۰ درصد گوشت چرخ شده تند، هالوپینو ، خیارشور ، سس تند",
+      "هات داگ ۹۰ درصد، گوشت چرخ شده تند، هالوپینو ، خیارشور ، سس تند، دیپ پنیر",
     price: 178,
     order: 0,
   },
@@ -195,7 +209,7 @@ const ar3 = [
 const ar4 = [
   {
     id: 0,
-    src: null,
+    src: c4t1,
     name: "سیب زمینی سرخ کرده",
     discription: "سیب زمینی با ادویه مخصوص",
     price: 99,
@@ -203,7 +217,7 @@ const ar4 = [
   },
   {
     id: 1,
-    src: null,
+    src: c4t2,
     name: "وایت فرایز",
     discription: "سیب زمینی با سس الفردو",
     price: 109,
@@ -211,10 +225,11 @@ const ar4 = [
   },
   {
     id: 2,
-    src: null,
-    name: "چیزی فرایز",
-    discription: "سیب زمینی با سس پنیر",
-    price: 112,
+    src: c4t3,
+    name: "اسپشیال چیزی فرایز",
+    discription:
+      "سیب زمینی، ژامبون گوشت، پنیر موتزارلا، فلفل دلمه ای، سس مخصوص، ادویه مخصوص",
+    price: 199,
     order: 0,
   },
   {
